@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+package detection;
+
+// Message sent from the client containing an image frame as bytes.
+message Frame {
+  bytes image_data = 1;
+}
+
+// A single detection result from the YOLO model.
+message Detection {
+  float x = 1;         // X center
+  float y = 2;         // Y center
+  float width = 3;     // Box width
+  float height = 4;    // Box height
+  int32 class_id = 5;
+}
+
+// The response sent back to the client containing all detections for one frame.
+message DetectionResponse {
+  repeated Detection detections = 1;
+}
+
+// The YOLO service definition.
+service YOLOService {
+  // Bidirectional streaming RPC.
+  rpc StreamDetection(stream Frame) returns (stream DetectionResponse);
+}
