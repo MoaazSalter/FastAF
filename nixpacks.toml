@@ -2,7 +2,10 @@
 builder = "nixpacks"
 
 [phases.setup]
-nixPkgs = ["python312", "libGL"] # You can use python311 or python310 if needed
+nixPkgs = ["python312", "libGL", "pip"]
 
 [phases.install]
 cmds = ["pip install -r requirements.txt"]
+
+[start]
+cmd = "python server.py"
