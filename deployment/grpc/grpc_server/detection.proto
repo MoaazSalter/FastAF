@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+package detection;
+
+// message from client
+message Frame {
+  bytes image_data = 1;
+}
+
+message Detection {
+  float x = 1;
+  float y = 2;
+  float width = 3;
+  float height = 4;
+  int32 class_id = 5;
+}
+
+// response to client
+message DetectionResponse {
+  repeated Detection detections = 1;
+}
+
+// bidirectional detection function.
+service YOLOService {
+  rpc StreamDetection(stream Frame) returns (stream DetectionResponse);
+}

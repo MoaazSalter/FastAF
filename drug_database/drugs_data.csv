@@ -1,0 +1,57 @@
+Model_ID,Drug_Name,Drug_Form,Price_Per_Pack,Unit_Per_Pack
+0,Adapalene,Topical Gel,21.5,1
+1,Ceftriaxone 1000mg,I.M. injection,65,1
+2,Ceftriaxone 1000mg,I.V. injection or infusion,65,1
+3,Ceftriaxone 500mg,I.M. injection,62,1
+4,Concor 10 plus,Tablet,79.5,3
+5,Concor 5 mg,Tablet,72,3
+6,Concor COR 2.5mg,Tablet,60,3
+7,DG wash fluoride,Mouth Wash & Gargle,35,1
+8,DG wash menthol,Mouth Wash & Gargle,35,1
+9,Diclac 150 ID,Tablet,132,2
+10,Dove,Topical Cream,129,1
+11,Dove daily care,Shampoo,165,1
+12,Dove nourishing secrets strengthening ritual,Shampoo,130,1
+13,Elvive hyaluron moisture,Hair Care,170,1
+14,Fucidin,Topical Cream,56,1
+15,Garamycin,Topical Cream,22,1
+16,Infinity Biovita,Chewing Gum,230,1
+17,Infinity omrga RX,Chewing Gum,130,1
+18,Ketofan 50mg,Capsule,45,3
+19,Levcet,Tablet,85,2
+20,Limitless Man,Tablet,240,1
+21,Limitless Woman,Tablet,240,1
+22,Limitless omega-3,Capsule,198,1
+23,Nervizan,Capsule,555,1
+24,One Two Three Extra,Tablet,50,2
+25,One Two Three,Syrup,32,1
+26,One Two Three,Tablet,40,2
+27,Otrivin 0.05%,Nasal Drops,24,1
+28,Otrivin 0.1%,Nasal Drops,24,1
+29,Panadol Advance,Tablet,92,4
+30,Panadol Extra,Tablet,34,2
+31,Sensodyne fluoride 100ml,Toothpaste,192,1
+31,Sensodyne fluoride 20ml,Toothpaste,30,1
+31,Sensodyne fluoride 50ml,Toothpaste,100,1
+32,Sensodyne multi care + whitening 100ml,Toothpaste,169,1
+32,Sensodyne multi care + whitening 20ml,Toothpaste,35,1
+32,Sensodyne multi care + whitening 50ml,Toothpaste,102,1
+33,Seropipe,Hair Care,255,1
+34,Signal 120ml,Toothpaste,65,1
+34,Signal 25ml,Toothpaste,33,1
+34,Signal 50ml,Toothpaste,40,1
+35,Signal complete 8 Charcoal 100ml,Toothpaste,57,1
+35,Signal complete 8 Charcoal 20ml,Toothpaste,15,1
+35,Signal complete 8 Charcoal 50ml,Toothpaste,40,1
+36,Telfast 180mg,Tablet,144,2
+37,Telfast Decongestant,Tablet,63,2
+38,Telfast,Syrup,50,1
+39,Tola,Shampoo,153,1
+40,Tola,Hair Care,150,1
+41,Urivin-N,Effervescent,31,10
+42,Voltaren 100mg,Suppositories,54,2
+43,Voltaren 75mg / 3ml,I.M. injection,68,3
+44,Voltaren SR 100mg,Tablet,91,2
+45,Voltaren 100g,Topical Gel,101,1
+45,Voltaren 25g,Topical Gel,39,1
+45,Voltaren 50g,Topical Gel,68,1
